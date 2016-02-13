@@ -13,9 +13,9 @@
 		E82F689B1C6C8D30001E128D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82F68991C6C8D30001E128D /* Main.storyboard */; };
 		E82F689D1C6C8D30001E128D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82F689C1C6C8D30001E128D /* Assets.xcassets */; };
 		E82F68A01C6C8D30001E128D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82F689E1C6C8D30001E128D /* LaunchScreen.storyboard */; };
-		E82F68D31C6C8F9F001E128D /* NSObject+GooView.m in Sources */ = {isa = PBXBuildFile; fileRef = E82F68C81C6C8F9F001E128D /* NSObject+GooView.m */; };
-		E82F68D41C6C8F9F001E128D /* ShitView.m in Sources */ = {isa = PBXBuildFile; fileRef = E82F68CA1C6C8F9F001E128D /* ShitView.m */; };
-		E82F68D81C6C90E3001E128D /* blast_gif.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E82F68D71C6C90E3001E128D /* blast_gif.bundle */; };
+		E8B5953C1C6EDC2D00FD533C /* blast_gif.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8B595371C6EDC2D00FD533C /* blast_gif.bundle */; };
+		E8B5953D1C6EDC2D00FD533C /* NSObject+GooView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B595391C6EDC2D00FD533C /* NSObject+GooView.m */; };
+		E8B5953E1C6EDC2D00FD533C /* ShitView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B5953B1C6EDC2D00FD533C /* ShitView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,11 @@
 		E82F689C1C6C8D30001E128D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E82F689F1C6C8D30001E128D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E82F68A11C6C8D30001E128D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E82F68C71C6C8F9F001E128D /* NSObject+GooView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GooView.h"; sourceTree = "<group>"; };
-		E82F68C81C6C8F9F001E128D /* NSObject+GooView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GooView.m"; sourceTree = "<group>"; };
-		E82F68C91C6C8F9F001E128D /* ShitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShitView.h; sourceTree = "<group>"; };
-		E82F68CA1C6C8F9F001E128D /* ShitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShitView.m; sourceTree = "<group>"; };
-		E82F68D71C6C90E3001E128D /* blast_gif.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = blast_gif.bundle; sourceTree = "<group>"; };
+		E8B595371C6EDC2D00FD533C /* blast_gif.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = blast_gif.bundle; path = ../../XHGQQViscosityEffect/blast_gif.bundle; sourceTree = "<group>"; };
+		E8B595381C6EDC2D00FD533C /* NSObject+GooView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+GooView.h"; path = "../../XHGQQViscosityEffect/NSObject+GooView.h"; sourceTree = "<group>"; };
+		E8B595391C6EDC2D00FD533C /* NSObject+GooView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+GooView.m"; path = "../../XHGQQViscosityEffect/NSObject+GooView.m"; sourceTree = "<group>"; };
+		E8B5953A1C6EDC2D00FD533C /* ShitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShitView.h; path = ../../XHGQQViscosityEffect/ShitView.h; sourceTree = "<group>"; };
+		E8B5953B1C6EDC2D00FD533C /* ShitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShitView.m; path = ../../XHGQQViscosityEffect/ShitView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +74,11 @@
 				E82F689C1C6C8D30001E128D /* Assets.xcassets */,
 				E82F689E1C6C8D30001E128D /* LaunchScreen.storyboard */,
 				E82F68A11C6C8D30001E128D /* Info.plist */,
-				E82F68C71C6C8F9F001E128D /* NSObject+GooView.h */,
-				E82F68C81C6C8F9F001E128D /* NSObject+GooView.m */,
-				E82F68C91C6C8F9F001E128D /* ShitView.h */,
-				E82F68CA1C6C8F9F001E128D /* ShitView.m */,
-				E82F68D71C6C90E3001E128D /* blast_gif.bundle */,
+				E8B595371C6EDC2D00FD533C /* blast_gif.bundle */,
+				E8B595381C6EDC2D00FD533C /* NSObject+GooView.h */,
+				E8B595391C6EDC2D00FD533C /* NSObject+GooView.m */,
+				E8B5953A1C6EDC2D00FD533C /* ShitView.h */,
+				E8B5953B1C6EDC2D00FD533C /* ShitView.m */,
 				E82F68901C6C8D30001E128D /* Supporting Files */,
 			);
 			path = XHGQQViscosityEffectDemo;
@@ -153,7 +153,7 @@
 				E82F68A01C6C8D30001E128D /* LaunchScreen.storyboard in Resources */,
 				E82F689D1C6C8D30001E128D /* Assets.xcassets in Resources */,
 				E82F689B1C6C8D30001E128D /* Main.storyboard in Resources */,
-				E82F68D81C6C90E3001E128D /* blast_gif.bundle in Resources */,
+				E8B5953C1C6EDC2D00FD533C /* blast_gif.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,11 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E82F68D31C6C8F9F001E128D /* NSObject+GooView.m in Sources */,
+				E8B5953D1C6EDC2D00FD533C /* NSObject+GooView.m in Sources */,
 				E82F68981C6C8D30001E128D /* ViewController.m in Sources */,
 				E82F68951C6C8D30001E128D /* AppDelegate.m in Sources */,
 				E82F68921C6C8D30001E128D /* main.m in Sources */,
-				E82F68D41C6C8F9F001E128D /* ShitView.m in Sources */,
+				E8B5953E1C6EDC2D00FD533C /* ShitView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XHGQQViscosityEffectDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohugr.www.XHGQQViscosityEffectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XHGQQViscosityEffectDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohugr.www.XHGQQViscosityEffectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

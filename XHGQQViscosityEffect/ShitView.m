@@ -55,7 +55,6 @@
     [self setUp];
     
     
-    
 }
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -187,6 +186,7 @@
 // 还原
 - (void)setUpRestore
 {
+    
     [self.shapeLayer removeFromSuperlayer];
     [UIView animateWithDuration:0.25 delay:0 usingSpringWithDamping:0.3 initialSpringVelocity:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         
@@ -223,8 +223,9 @@
     NSMutableArray *arr = [NSMutableArray array];
     for (int i = 1; i < 9; i++) {
 
-        NSString *path = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%d",i] ofType:@"png"];
+        NSString *path = [[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"blast_gif.bundle/%d",i] ofType:@"png"];
         UIImage *image = [UIImage imageWithContentsOfFile:path];
+//        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"blast_gif.bundle/%d", i]];
         [arr addObject:image];
         
     }
@@ -238,6 +239,8 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [imageView removeFromSuperview];
         [self removeFromSuperview];
+        //移除小圆
+        [self.smallCircleView removeFromSuperview];
     });
 }
 
